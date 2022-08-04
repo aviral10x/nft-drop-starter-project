@@ -34,10 +34,7 @@ const App = () => {
    */
   const connectWallet = async () => {};
 
-  /*
-   * We want to render this UI when the user hasn't connected
-   * their wallet to our app yet.
-   */
+
   const renderNotConnectedContainer = () => (
     <button
       className="cta-button connect-wallet-button"
